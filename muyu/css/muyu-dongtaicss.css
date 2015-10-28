@@ -114,10 +114,10 @@ div.foot{
     font-size: 14px;
 }
 div.foot div.container{
-	padding-top: 10%;
 	text-align: center;
 }
 div.foot div.row{
+	padding-top: 10%;
 	margin: auto;
 }
 div.foot div.container div.row div.col-md-2 img{
@@ -145,18 +145,23 @@ span.foot-span{
     font-size: 14px;
     margin-top: 40px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
 	img.nav1{
 		display: none;
 	}
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
 	.nav{
 		display: none;
 	}
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1080px){
 	.dropdown{
 		display: none;
+	}
+}
+@media screen and (max-width: 340px){
+	div.foot div.row{
+		padding-top: 20%;
 	}
 }

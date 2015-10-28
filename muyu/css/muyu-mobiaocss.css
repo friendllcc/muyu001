@@ -1,4 +1,4 @@
-body{
+1080body{
 	background: #282828;
 }
 div.clear{
@@ -218,11 +218,11 @@ div.foot{
     background-color: #F3F3F3;
 }
 div.foot div.container{
-	padding-top: 10%;
 	text-align: center;
     margin-top: 0;
 }
 div.foot div.row{
+    padding-top: 10%;
 	margin: auto;
 }
 div.foot div.container div.row div.col-md-2 img{
@@ -250,20 +250,24 @@ span.foot-span{
     font-size: 14px;
     margin-top: 40px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
     img.nav1{
         display: none;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
     .nav{
         display: none;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1080px){
     .dropdown{
         display: none;
     }
 }
-
+@media screen and (max-width: 340px){
+    div.foot div.row{
+        padding-top: 20%;
+    }
+}
 

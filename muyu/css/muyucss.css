@@ -114,6 +114,9 @@ div.what{
     padding-bottom: 45px;
 	text-align: center;
 }
+div.what img{
+	width: 25%;
+}
 div.two div.border{
 	background-color: white;
 }
@@ -300,18 +303,24 @@ span.foot-span{
 	margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
 	img.nav1{
 		display: none;
 	}
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
 	.nav{
 		display: none;
 	}
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1080px){
 	.dropdown{
 		display: none;
 	}
+}
+@media screen and (max-width: 770px) {
+	div.col-sm-2 img{
+		width: 60%;
+	}
+	
 }
