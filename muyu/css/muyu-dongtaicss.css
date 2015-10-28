@@ -78,7 +78,6 @@ div.container{
 	margin-top: 100px;
 }
 div.main div.row div.col-md-3{
-	margin-left:6%;
 	text-align: center;
 }
 div.col-md-3 div.dong{
@@ -163,5 +162,10 @@ span.foot-span{
 @media screen and (max-width: 340px){
 	div.foot div.row{
 		padding-top: 20%;
+	}
+}
+@media screen and (min-width: 992px){
+	div.main div.row div.col-md-3{
+		margin-left:6%;
 	}
 }
