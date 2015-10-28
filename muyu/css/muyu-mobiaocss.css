@@ -1,0 +1,269 @@
+body{
+	background: #282828;
+}
+div.clear{
+	clear:both;
+}
+div.row{
+	width: 100%;
+}
+div.border{
+	height: 3px;
+	width: 100%;
+	background-image: url(../images/border-bottom.png);
+	background-position: center;	
+}
+div.v{
+	padding-top: 60px;
+}
+div.ico{
+    position: absolute;
+    top: 87%;
+    left: 48%;
+}
+
+/*导航*/
+div.dropdown{
+    background: black;
+}
+.nav {
+    background: url(../images/nav-bj.png) repeat-x;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    z-index: 9997;
+    overflow: hidden;
+}
+.fl{
+	margin-right: -150px;
+	width: 68%;
+	float: right;
+}
+.fl ul li {
+	text-align: center;
+	float: left;
+	line-height: 70px;
+	width: 8%;
+}
+.fl ul+ul li{
+	width: 5%;
+}
+.fl ul+ul li img{
+	width: 100%;
+}
+.fl ul:first-child a{
+	display: block;
+	height: 70px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+.fl ul:first-child a:hover{
+	text-decoration: none;
+}
+.fl ul+ul li a{
+	display: block;
+	position: relative;
+	bottom: 10px;
+}
+
+img.nav1{
+	float: left;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 20px;
+}
+/*header*/
+.header{
+	background: url(../images/xbj19.png) center bottom no-repeat;
+    height: 705px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.header-bottom {
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    text-indent: 2em;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 35px;
+}
+.header-top{
+	padding-top: 40px;
+}
+.header-bottom span.span2{
+	text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.header-bottom span.span1{
+	font-family: "微软雅黑";
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.header-bottom span.span2{
+	color: #999;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "微软雅黑";
+    display: block;
+    padding-bottom: 20px;
+}
+div.container{
+	margin-top: 20px;
+}
+/*SOLUTION*/
+div.solution{
+	width: 100%;
+    position: relative;
+}
+div.xt{
+	text-align: center;
+	padding-bottom: 20px;
+}
+div.row div{
+	text-align: center;
+}
+div.solution div.row div img{
+	width: 70%;
+}
+div.ss{
+	text-align: center;
+	padding-bottom: 20px;
+}
+div.ss span{
+	font-family: "微软雅黑";
+    font-size: 16px;
+    color: #808080;
+}
+div.kuang{
+	width: 70%;
+	margin: auto;
+}
+/*MAIN CASES*/
+div.maincases{
+	width: 100%;
+	background: white;
+    position: relative;
+}
+div.case{
+	text-align: center;
+	padding-bottom: 20px;
+}
+div.maincases div.row div{
+	text-align: center;
+}
+/*team*/
+div.team{
+    position: relative;
+}
+div.team div.row div img{
+	width: 80%;
+}
+div.tt1{
+	font-family: "微软雅黑";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+div.tt2{
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+/*you*/
+div.you{
+    width: 100%;
+    background: #F3F3F3;
+    text-align: center;
+    position: relative;
+}
+div.you span.span1{
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color: #262626;
+    display: block;
+    margin-bottom: 30px;
+}
+div.you span.span2{
+    color: #bfbfbf;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    display: block;
+    margin-bottom: 35px;
+}
+div.empty{
+	height: 80px;
+	background-color: #F3F3F3;
+}
+/*foot*/
+div.foot{
+    background: url(../images/work-foot-bj.png) center;
+    width: 100%;
+    text-align: center;
+    color: #717171;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    background-color: #F3F3F3;
+}
+div.foot div.container{
+	padding-top: 10%;
+	text-align: center;
+    margin-top: 0;
+}
+div.foot div.row{
+	margin: auto;
+}
+div.foot div.container div.row div.col-md-2 img{
+	margin: auto;
+	width: 70%;
+
+}
+div.foot div.container div.row div.col-md-3{
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+    padding-top: 3%;
+}
+div.foot div.row div{
+	text-align: center;
+}
+div.foot img{
+	width: 100%
+}
+span.foot-span{
+	display: block;
+	text-align: center;
+    color: #717171;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 768px){
+    img.nav1{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .dropdown{
+        display: none;
+    }
+}
+
+

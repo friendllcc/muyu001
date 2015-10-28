@@ -1,0 +1,380 @@
+body{
+	background: #282828;
+}
+div.clear{
+	clear:both;
+}
+div.row{
+	width: 100%;
+}
+div.border{
+	height: 3px;
+	width: 100%;
+	background-image: url(../images/border-bottom.png);
+	background-position: center;
+	margin-bottom: 40px;	
+}
+div.ico{
+    position: absolute;
+    left: 48%;
+    top: 90%;
+}
+/*导航*/
+div.dropdown{
+    background: black;
+}
+.nav {
+    background: url(../images/nav-bj.png) repeat-x;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    z-index: 9997;
+    overflow: hidden;
+}
+.fl{
+	margin-right: -150px;
+	width: 68%;
+	float: right;
+}
+.fl ul li {
+	text-align: center;
+	float: left;
+	line-height: 70px;
+	width: 8%;
+}
+.fl ul+ul li{
+	width: 5%;
+}
+.fl ul:first-child a{
+	display: block;
+	height: 70px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+.fl ul:first-child a:hover{
+	text-decoration: none;
+}
+.fl ul+ul li a{
+	display: block;
+	position: relative;
+	bottom: 10px;
+}
+
+img.nav1{
+	float: left;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 20px;
+}
+div.my-text1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.my-text1 span.span1{
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+    font-weight: 100;
+}
+div.my-text1 span.span2{
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 100;
+}
+div.my-text2 {
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    text-indent: 2em;
+    line-height: 24px;
+}
+/*who*/
+.who{
+	background: url(../images/xbj11.png) center bottom no-repeat;
+    width: 100%;
+    position: relative;
+}
+.whos{
+	width: 100%;
+	text-align: center;
+}
+.phone img.hand{
+	width: 50%;
+	margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*service*/
+div.service{
+    position: relative;
+}
+.fuwu{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.service span{
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #808080;
+}
+.inside{
+	background: url(../images/xbj12.png) center center no-repeat;
+    width: 345px;
+    height: 63px;
+    margin: 0 auto;
+}
+.inside li{
+	float: left;
+}
+.inside .xico1{
+	background: url(../images/xico2.png) no-repeat;
+    width: 61px;
+    height: 61px;
+    display: block;
+    margin-right: 77px;
+}
+.inside .xico2{
+	background: url(../images/xico3.png) no-repeat;
+    width: 61px;
+    height: 61px;
+    display: block;
+    margin-right: 77px;
+}
+.inside .xico3{
+	background: url(../images/xico4.png) no-repeat;
+    width: 61px;
+    height: 61px;
+    display: block;
+    margin-right: 0px;
+}
+.bd{
+	width: 80%;
+	margin: 0 auto;
+    padding-top: 40px;
+}
+div.wen{
+	float: left;
+	width: 50%;
+}
+li.t1{
+	font-family: "微软雅黑";
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 100;
+    padding-bottom: 18px;
+}
+li.t2{
+	font-family: "微软雅黑";
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    padding-bottom: 18px;
+}
+li.t3{
+	font-family: "微软雅黑";
+    font-size: 14px;
+    color: #999999;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.bd ul{
+	width: 90%;
+}
+ul.tt{
+	width: 90%;
+}
+ul.tt li{
+	display: block;
+    background: url(../images/xico5.png) center left no-repeat;
+    height: 18px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #999999;
+    width: 260px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+div.tu{
+	width: 50%;
+    float: right;
+    text-align: center;
+}
+div.tu img{
+	width: 80%;
+}
+div.empty1{
+    height: 80px;
+}
+/*works*/
+.works{
+	background: white;
+	text-align: center;
+    position: relative;
+}
+.works span{
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #999999;
+}
+div.row img{
+	width: 85%;
+}
+div.works div.col-md-1 img{
+}
+
+div.down-text{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+div.down-text2{
+	padding-bottom: 30px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #999999;
+}
+div.down-more{
+	text-align: center;
+}
+div.down-more img{
+	width: 20%;
+}
+/*you*/
+div.you{
+    width: 100%;
+    background: #F3F3F3;
+    text-align: center;
+    margin-bottom: -100px;
+}
+div.you span.span1{
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color: #262626;
+    display: block;
+    margin-bottom: 30px;
+}
+div.you span.span2{
+    color: #bfbfbf;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    display: block;
+    margin-bottom: 35px;
+}
+div.empty{
+	height: 110px;
+	background-color: #F3F3F3;
+}
+/*foot*/
+div.foot{
+    background: url(../images/work-foot-bj.png) center;
+    width: 100%;
+    text-align: center;
+    color: #717171;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    background-color: #F3F3F3;
+}
+div.foot div.container{
+	padding-top: 10%;
+	text-align: center;
+}
+div.foot div.row{
+	margin: auto;
+}
+div.foot div.container div.row div.col-md-2 img{
+	margin: auto;
+	width: 70%;
+
+}
+div.foot div.container div.row div.col-md-3{
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+    padding-top: 3%;
+}
+div.foot div.row div{
+	text-align: center;
+}
+div.foot img{
+	width: 100%
+}
+span.foot-span{
+	display: block;
+	text-align: center;
+    color: #717171;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+	li.t1{
+    	color: #ffffff;
+    	font-weight: 0;
+    	padding-bottom: 6px;
+		font-size:18px; 
+	}
+}
+@media screen and (max-width: 768px){
+	li.t2{
+		font-size: 6px;
+    	color: #ffffff;
+    	font-weight: 0;
+    	padding-bottom: 9px;
+	}
+}
+@media screen and (max-width: 768px){
+	li.t3{
+	font-size: 4px;
+    color: #999999;
+    font-weight: 0;
+    padding-bottom: 10px;
+}
+	}
+}
+@media screen and (max-width: 768px){
+	ul.tt li{
+	height: 5px;
+    font-size: 4px;
+    color: #999999;
+    margin-bottom: 4px;
+    padding-left: 0;
+
+	}
+}
+@media screen and (max-width: 768px){
+    img.nav1{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .dropdown{
+        display: none;
+    }
+}
