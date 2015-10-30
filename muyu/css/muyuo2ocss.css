@@ -19,6 +19,11 @@ div.ico{
     left: 48%;
     top: 90%;
 }
+div.ico3{
+    position: absolute;
+    left: 48%;
+    top: 95%;
+}
 /*导航*/
 div.dropdown{
     background: black;
@@ -325,7 +330,15 @@ span.foot-span{
     margin-top: 40px;
 }
 
-
+@media screen and (max-width: 768px){
+    
+    div.bd{
+        display: none;
+    }
+    div.inside{
+        display: none;
+    }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -336,6 +349,7 @@ span.foot-span{
 		font-size:18px; 
 	}
 }
+
 @media screen and (max-width: 768px){
 	li.t2{
 		font-size: 6px;
@@ -344,25 +358,16 @@ span.foot-span{
     	padding-bottom: 9px;
 	}
 }
+
 @media screen and (max-width: 768px){
 	li.t3{
 	font-size: 4px;
     color: #999999;
     font-weight: 0;
     padding-bottom: 10px;
+    }
 }
-	}
-}
-@media screen and (max-width: 768px){
-	ul.tt li{
-	height: 5px;
-    font-size: 4px;
-    color: #999999;
-    margin-bottom: 4px;
-    padding-left: 0;
 
-	}
-}
 @media screen and (max-width: 1080px){
     img.nav1{
         display: none;
@@ -381,5 +386,10 @@ span.foot-span{
 @media screen and (max-width: 340px){
     div.foot div.row{
         padding-top: 20%;
+    }
+}
+@media screen and (min-width: 768px){
+    div.xx{
+        display: none;
     }
 }

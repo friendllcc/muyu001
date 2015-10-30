@@ -18,6 +18,11 @@ div.ico{
 	left: 48%;
 	top: 90%;
 }
+div.ico4{
+	position: absolute;
+	left: 48%;
+	top: 94%;
+}
 /*导航*/
 div.dropdown{
 	background: black;
@@ -212,6 +217,9 @@ div.four div.new{
 div.four div.v{
 	background: #282828;
 }
+a.p:hover{
+	text-decoration: none;
+}
 /*five*/
 div.five-row-images li{
 	width: 100%;
@@ -219,6 +227,7 @@ div.five-row-images li{
 	margin: 10px 0px;
 }
 div.five{
+	background-color: #282828;
     width: 100%;
     text-align: center;
     padding-top: 45px;
