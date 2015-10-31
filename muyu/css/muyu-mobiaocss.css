@@ -301,5 +301,10 @@ span.foot-span{
         width: 75%;
         padding-top: 20px;
     }
+    div.ico{
+        position: absolute;
+        top: 93%;
+        left: 48%;
+    }
 }
 
