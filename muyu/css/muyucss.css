@@ -1,3 +1,4 @@
+ol,ul,li { list-style:none; }
 body{
 	background: #282828;
 }
@@ -24,6 +25,44 @@ div.ico4{
 	top: 94%;
 }
 /*导航*/
+.navSlide{
+		z-index: 9999;
+		width: 100%;
+		position: fixed;
+	}
+	.navSlide li{
+		text-align: center;
+	}
+	.navSlide a{
+		z-index: 9999;
+		text-align: center;
+	}
+.navSlide .navBlock{
+	height: 32px; 
+	background-color: #464749;
+	line-height: 32px;
+	text-align: center;
+}
+.navSlide li a{
+	display: block;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	text-decoration: none; 
+	color: #FFFFFF; 
+	background-color: #23abf1;
+}
+.navSlideDown{
+	margin: 0;
+	padding: 0;
+	z-index: 999;
+}
+.navSlide li a:hover{
+	background-color: #0C7DBA;
+}
+.navSlide .navBlock span{
+	color: white;
+}
 div.dropdown{
 	background: black;
 }
@@ -84,9 +123,10 @@ div.one{
 div.one{
 	text-align: center;
 	position: relative;
+	z-index: 0;
 }
 div.one img.yun{
-	
+	z-index: 0;
 }
 /*iv.one img.ico1{
 	width: 36%;
@@ -323,7 +363,7 @@ span.foot-span{
 	}
 }
 @media screen and (min-width: 1080px){
-	.dropdown{
+	.navSlide{
 		display: none;
 	}
 }

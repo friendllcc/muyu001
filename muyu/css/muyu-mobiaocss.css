@@ -23,6 +23,44 @@ div.ico{
 }
 
 /*导航*/
+.navSlide{
+        z-index: 9999;
+        width: 100%;
+        position: fixed;
+    }
+    .navSlide li{
+        text-align: center;
+    }
+    .navSlide a{
+        z-index: 9999;
+        text-align: center;
+    }
+.navSlide .navBlock{
+    height: 32px; 
+    background-color: #464749;
+    line-height: 32px;
+    text-align: center;
+}
+.navSlide li a{
+    display: block;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none; 
+    color: #FFFFFF; 
+    background-color: #23abf1;
+}
+.navSlideDown{
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+.navSlide li a:hover{
+    background-color: #0C7DBA;
+}
+.navSlide .navBlock span{
+    color: white;
+}
 div.dropdown{
     background: black;
 }
@@ -261,7 +299,7 @@ span.foot-span{
     }
 }
 @media screen and (min-width: 1080px){
-    .dropdown{
+   .navSlide{
         display: none;
     }
 }
